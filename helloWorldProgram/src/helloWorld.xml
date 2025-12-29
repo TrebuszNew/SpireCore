@@ -1,0 +1,5 @@
+<on_start>
+    <log>
+        <value>"Hello world!"</value>
+    </log>
+</on_start>

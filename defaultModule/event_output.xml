@@ -1,0 +1,22 @@
+<block>
+    <inputs>
+        <name type="string" required="true" />
+    </inputs>
+
+    <return>
+        <type>
+            <![CDATA[
+                if (possibleInputsTypes.includes(output[stripQuotes(input.name.value)].type)) {
+                    return output[stripQuotes(input.name.value)].type;
+                }
+            ]]>        
+        </type>
+    </return>
+
+    <code>
+        <![CDATA[
+            addAtBlockLocation(stripQuotes(input.name.value));
+        ]]>
+    </code>
+
+</block>

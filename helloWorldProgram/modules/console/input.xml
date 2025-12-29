@@ -1,0 +1,11 @@
+<block>
+    <return>
+        <type>string</type>
+    </return>
+
+    <code>
+        <![CDATA[
+            addAtBlockLocation("spirelite_console::take_input()")
+        ]]>
+    </code>
+</block>

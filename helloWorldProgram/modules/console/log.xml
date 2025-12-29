@@ -1,0 +1,31 @@
+
+<block>
+    <inputs>
+        <value type='["uint", "int", "float", "bool", "string"]' required="true" />
+    </inputs>
+
+    <look>
+        <content>
+            <text>log </text>
+            <input>value</input>
+        </content>
+        <style>
+            <background>
+                <solid>249664</solid>
+            </background>
+            <border>
+                <solid>165b3d</solid>
+            </border>
+        </style>
+    </look>
+
+    <code>
+        <![CDATA[
+            if(isThereBlockInTheInput("value")){
+                addAtBlockLocation(`println!("{}", ${input.value.value});`);
+            }else{
+                addAtBlockLocation(`println!(${input.value.value});`);
+            }
+        ]]>
+    </code>
+</block>

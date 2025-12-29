@@ -1,0 +1,10 @@
+<block>
+    <look>[name]</look>
+
+    <code>
+        <![CDATA[
+            addAtBlockLocation(`_EXIT.store(true, std::sync::atomic::Ordering::Relaxed);`);
+        ]]>
+    </code>
+
+</block>

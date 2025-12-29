@@ -1,0 +1,8 @@
+{
+    "version": "1.0.0",
+    "engineVersion": "0.0.1",
+    "description": "A simple module for interacting with the console",
+    "author": ["SourBitStudio"],
+    "supportedPlatforms": ["windows", "linux", "web"],
+    "supportedLanguages": ["rust"]
+}

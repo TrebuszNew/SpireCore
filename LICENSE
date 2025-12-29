@@ -1,0 +1,98 @@
+SRLv1.0 License
+===
+
+PREAMBLE
+======
+1.0 The SRLv1.0 License is designed to protect the rights of the Licensor while allowing broad use of the SpireLite Ecosystem.
+This extended version provides expanded definitions, obligations, clarifications, disclaimers, enforcement rules, and scope, to ensure full legal clarity for both the Licensor and Licensee.
+All obligations described in this document apply equally to all users, private or commercial, regardless of geographical location.
+The purpose of this license is to guarantee transparency, revenue reporting, controlled modification, and clear boundaries for derivative works and usage within software projects.
+
+DEFINITIONS
+1.1 "Licensor" refers to SourBit Studio, the legal owner and copyright holder of SpireLite Ecosystem.
+1.2 "Licensee" refers to any person, entity, studio, group, corporation, or organization using, modifying, distributing, or building upon the Tools.
+1.3 "Tools" Collectively refers to SpireCore and SpireStudio. These components, together with their associated libraries and APIs, constitute the project known as the "SpireLite Ecosystem".
+1.4 "Project" refers to any software, application, game, tool, service, or interactive product that uses the Tools directly or indirectly.
+1.5 "Revenue Threshold" refers to the annual gross revenue limit of 40,000 USD per calendar year.
+1.6 "Excess Revenue" refers to the Gross Revenue earned by a Project minus the threshold.
+1.7 "Annual Reporting Period" refers to the time window between January 1st and March 31st of the year following the fiscal year being reported.
+1.8 "Modification" refers to any change, adaptation, or alteration to the Tools' original source code.
+1.9 "Project Update" Any change, modification, addition of new functionality, or change to the source content of the Project (including source code, assets, and content delivered via remote server), regardless of whether such change directly utilizes the functions of the Tools (including SpireLite) or not.
+1.10 "Gross Revenue" refers to the total value of all compensation or value received by the Project, whether collected by the Licensee, their publisher, distributor, or agent. This includes but is not limited to: direct sales, in-app purchases, subscriptions, advertising revenue, crowdfunding (e.g., Kickstarter), royalties, and digital assets/currencies (valued at the time of transaction), calculated before any deductions for taxes, platform fees, or other expenses.
+1.11 "Bundled Projects" If the Project is distributed as part of a package or bundle with other products (digital or physical), the Gross Revenue allocated to the Project shall be no less than the proportional value of the Project within that bundle. If no distinct value can be established, 100% of the bundle price counts towards Gross Revenue.
+1.12 "Reporting Threshold" refers to the annual gross revenue limit of 4,000 USD per calendar year.
+
+GRANT OF RIGHTS AND OBLIGATIONS
+2.0 Under this license, the Licensee is granted the non-exclusive, worldwide right to use, study, run, modify, and integrate the Tools into Projects, provided that all obligations, restrictions, and financial requirements in this license are met.
+2.1 The Tools may be used to generate output for Projects without requiring that the output itself be licensed under the SRLv1.0 License, unless the output contains portions of Tool source code.
+2.2 The Licensee may distribute Projects created using the Tools under any license of their choice, provided they comply fully with the SRLv1.0 requirements.
+2.3 Account Requirement: Access to SpireStudio and the creation of Commercial Projects using SpireCore requires a valid, registered user account with SourBit Studio. Accounts are non-transferable and must be registered to a single natural person. Sharing accounts between multiple individuals is strictly prohibited.
+2.4 AI Usage: Projects utilizing Artificial Intelligence (AI) generation or assistance are fully subject to the terms of this license.
+2.5 AI Training Prohibition: The use of SpireLite Ecosystem source code, binaries, or documentation to train Machine Learning models, Large Language Models (LLM), or other AI systems is strictly prohibited.
+
+REVENUE REPORTING REQUIREMENTS
+3.0 Licensees operating Commercial Projects must provide a full annual revenue report for each Project (or the aggregate of all Projects as per Section 3.8) that exceeds the Reporting Threshold (4,000 USD). Projects generating revenue below this threshold and non-commercial, free-to-use Projects are exempt from mandatory annual reporting.
+3.1 Mandatory Reporting: The Licensee must submit an annual revenue report during the Annual Reporting Period if the cumulative Gross Revenue from their Projects exceeds the Reporting Threshold. If the total Gross Revenue is below the Reporting Threshold, no report or "Zero Revenue" declaration is required, provided the Licensee maintains internal records to prove compliance if audited.
+3.2 Reports must include: total annual revenue, revenue breakdown per month, list of income sources, and documentation sufficient to demonstrate accuracy.
+3.3 Reports must be delivered to the Licensor during the Annual Reporting Period (Jan 1st - March 31st). The Report must be submitted prior to the transfer of any due payments.
+3.4 Non-Reporting Violation: Failure to submit an annual report for Projects that have exceeded the Reporting Threshold by the end of the Annual Reporting Period constitutes a material breach of this license.
+3.5 Audit Rights: The Licensor reserves the right to audit the Licensee's financial records related to the Project if there is a reasonable suspicion of fraudulent reporting or underpayment. The initial cost of the audit shall be borne by the Licensor.
+3.6 Audit Consequences: If an audit reveals that the Licensee has underreported Gross Revenue by more than 5% (five percent), or provided false information or concealed revenue, the Licensee must immediately pay:
+    a) The full overdue amount owed to the Licensor;
+    b) The full cost of the audit incurred by the Licensor;
+    c) Pay a contractual penalty equal to 10% of the concealed Gross Revenue for the breach of non-monetary obligations regarding transparent reporting and provision of true information.
+3.7 Refusal to comply with the audit or failure to pay the amounts specified in section 3.6 constitutes a material breach and immediate termination of this license.
+3.8 Total Revenue Aggregation: For the purpose of determining compliance with the Revenue Threshold, Gross Revenue from ALL Projects owned, operated, published, or distributed by the Licensee shall be aggregated. The Revenue Threshold applies to the total cumulative revenue of the Licensee, not per individual Project.
+
+REVENUE SHARING REQUIREMENTS
+4.0 If annual revenue from a Project exceeds the Revenue Threshold of 40,000 USD, the Licensee must pay the Licensor 4% of the Excess Revenue.
+4.1 Payments must be made during the Annual Reporting Period (Jan 1st - March 31st) for the previous calendar year.
+4.2 All taxes, fees, transfer costs, or legal obligations associated with payment are the sole responsibility of the Licensee.
+4.3 Payment must be processed after the submission of the annual report.
+
+MODIFICATION AND DISTRIBUTION OF SOURCE CODE
+5.0 The Licensee may modify the Tools' source code.
+5.1 If modified Tools are distributed or integrated into other distributed tools, the modified Tool source code must be made available under the SRLv1.0 License.
+5.2 The Licensee is not required to disclose change logs or commit histories; only the final modified source code is required.
+5.3 Tool source code that is unchanged does not need to be redistributed, as long as attribution is preserved.
+5.4 Projects created with the Tools do not need to be open-source.
+5.5 No Commercial Forks: The creation of commercial forks of SpireLite Ecosystem is strictly prohibited. Licensee may not repackage, rebrand, or sell the Tools (modified or unmodified) as a standalone engine, development tool, or middleware competing with SourBit Studio.
+5.6 Non-Commercial Extensions: The sale, licensing for a fee, or direct monetization of plugins, modules, or any other additions designed to expand the SpireLite Ecosystem is strictly prohibited. All such extensions must be distributed at no cost to end-users. This restriction does not apply to the monetization of Projects (as defined in Section 1.4) that utilize such extensions, provided the Licensee complies with the Revenue Reporting and Revenue Sharing requirements set forth in Sections 3 and 4.
+
+THIRD-PARTY DISTRIBUTION AND SELLING
+6.0 The Licensee may sell or distribute Projects made with the Tools commercially or non-commercially.
+6.1 If another entity wishes to resell, sublicense, or redistribute the Tools themselves, they must first request written permission from the Licensor.
+6.2 Permission may be granted, denied, or conditioned as the Licensor sees fit.
+
+ENFORCEMENT AND LICENSE TERMINATION
+7.0 Violations include: failure to pay Excess Revenue, providing fraudulent numbers, intentionally concealing the use of the Tools, or failure to report actual revenue earned (where such revenue exceeds zero USD).
+7.1 Upon violation, the Licensor may revoke access to the Tools immediately.
+7.2 The Licensor may pursue legal action for damages, owed payments, audit costs, penalties, or fraudulent reporting.
+7.3 The Licensee will receive a written notice of violation; failure to correct the issue before the end of the Annual Reporting Period may result in permanent termination.
+7.4 Once terminated, the Licensee may not continue using the Tools for any purpose, and must immediately cease the distribution, sale, hosting, and operation of any Projects created with or relying upon the Tools.
+
+LICENSE VERSIONING AND UPDATES
+8.1 Legacy Version Continuity: The Licensee has the right to retain the SRL license version (e.g., SRLv1.0) under which the Project was initiated, provided that the Project does not undergo a Project Update after the expiration of the grace period for a new license version.
+8.2 Grace Period: Following the official release of a new license version (e.g., SRLv1.1, SRLv2) by SourBit Studio, a 360-day grace period shall apply.
+8.3 Update Requirement for Changes: Upon the expiration of the 360-day grace period, each subsequent Project Update (as defined in Section 1.9) requires the Licensee's full acceptance of and compliance with the latest available version of the SRL license.
+8.4 Projects that are not updated following the grace period (remaining in the distribution or maintenance phase without changes to the source content) may permanently operate under the terms of the license version in effect at the time of their last update.
+
+DISCLAIMER OF WARRANTY
+9.0 The Tools are provided "AS IS", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement.
+9.1 The Licensor is not responsible for damages, loss of revenue, corruption of data, or issues resulting from use of the Tools.
+9.2 The Licensee assumes all risks associated with using the Tools.
+
+LIMITATION OF LIABILITY AND INDEMNIFICATION
+10.0 In no event shall the Licensor be liable for any claim exceeding the amount paid by the Licensee for Excess Revenue obligations, if any.
+10.1 This limitation applies to negligence, contract disputes, or tort claims.
+10.2 Indemnification: The Licensee agrees to indemnify, defend, and hold harmless the Licensor (SourBit Studio) from any claims, lawsuits, liabilities, damages, or penalties arising out of the Licensee’s use of the Tools or the operation of their Projects. The Licensor cannot be held liable for any legal violations, copyright infringements, or unlawful acts committed by the Licensee or their Projects.
+
+EXPORT CONTROL AND SANCTIONS
+11.0 The Licensee may not use, export, re-export, or transfer the Tools or Projects created with the Tools to any country, entity, or person subject to sanctions or embargoes imposed by the European Union (EU), the United Nations (UN), or the United States of America (USA).
+11.1 The Licensee represents and warrants that they are not a citizen of, or located within, an embargoed or sanctioned nation and are not prohibited from receiving the Tools under applicable export control laws.
+11.2 Creating Projects that violate international export laws or facilitate illegal activities is strictly prohibited.
+
+FINAL PROVISIONS
+12.0 This license supersedes all previous agreements.
+12.1 Using the Tools constitutes full acceptance of this license.
+12.2 Governing Law: This license is governed by the laws of Poland. Any disputes arising from this license shall be resolved in the competent courts of Poland.

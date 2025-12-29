@@ -1,0 +1,33 @@
+{
+  "name": "spirecore",
+  "version": "0.0.1",
+  "description": "SpireCore is a component of SpireStudio responsible for processing and converting logic written in XML into the Rust programming language. It operates as a transpiler that sequentially analyzes the XML structure, interprets block definitions, and executes the instructions assigned to them to generate the resulting source code.",
+  "main": "index.js",
+  "scripts": {
+    "run": "node dist/index.js",
+    "dev": "npx tsc && node dist/index.js",
+    "build-win": "npx tsc && npx nexe dist/index.js -t windows-x64-14.15.3 -o dist/spireCore.exe",
+    "build-linux": "npx tsc && npx nexe dist/index.js -t linux-x64-14.15.3 -o dist/spireCore",
+    "build-macos": "npx tsc && npx nexe dist/index.js -t mac-x64-14.15.3 -o dist/spireCore",
+    "test": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "SourBitStudio",
+  "license": "SEE LICENSE IN LICENSE",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.10.0",
+    "jest": "^30.2.0",
+    "ts-jest": "^29.4.5"
+  },
+  "dependencies": {
+    "acorn": "^8.15.0",
+    "acorn-walk": "^8.3.4",
+    "adm-zip": "^0.5.16",
+    "dotenv": "^17.2.2",
+    "fast-xml-parser": "^4.5.3",
+    "readline-sync": "^1.4.10",
+    "zod": "^4.2.1"
+  }
+}

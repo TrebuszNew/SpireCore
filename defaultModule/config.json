@@ -1,0 +1,8 @@
+{
+    "version": "1.0.0",
+    "engineVersion": "0.0.1",
+    "description": "Module with the most basic blocks",
+    "authors": ["SourBitStudio"],
+    "supportedPlatforms": ["windows", "linux", "web"],
+    "supportedLanguages": ["rust"]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "HelloWorld",
+    "version": "1.0.0",
+    "engineVersion": "0.0.1",
+    "description": "helloWorld",
+    "authors": ["SourBitStudio"],
+    "license": "MIT",
+    "entryPoints": ["src/helloWorld.xml"],
+    "targetPlatforms": ["windows", "linux", "web"],
+    "targetLanguages": ["rust"]
+}
