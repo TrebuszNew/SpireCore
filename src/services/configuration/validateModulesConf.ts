@@ -9,10 +9,11 @@ import { validateModuleSectionAccess, validateWindowSectionUsage } from "../../u
 import { formatZodError } from "./utils";
 
 
-export let windowingModule: string | null = null;
-export let renderingModule: string | null = null;
 
 export async function validateModulesConf() {
+    let windowingModule: string | null = null;
+    let renderingModule: string | null = null;
+
     logger.log("\n<--------------------{ Modules Validation }-------------------->")
     const modulesDir = path.join(unpackedPath, "modules");
 
@@ -52,6 +53,7 @@ export async function validateModulesConf() {
 
     await validateGlobalModulesConfiguration(windowingModule, renderingModule, moduleConfigs);
 }
+
 
 
 export function validateModuleConfig(configText: string, moduleName: string): ModuleConfig {

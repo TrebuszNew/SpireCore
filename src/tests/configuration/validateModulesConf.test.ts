@@ -1,8 +1,10 @@
 import { validateModulesConf } from '../../services/configuration/validateModulesConf';
 import * as fsUtils from '../../utils/fs';
 import fs from 'fs';
+import os from 'os';
 
 jest.mock('../../utils/fs');
+jest.mock('os');
 jest.mock('fs', () => ({
     promises: {
         access: jest.fn(),
@@ -13,6 +15,7 @@ jest.mock('fs', () => ({
 describe('configuration/validateModulesConf', () => {
     beforeEach(() => {
         jest.clearAllMocks();
+        (os.platform as jest.Mock).mockReturnValue('win32');
     });
 
     it('should validate modules correctly', async () => {
