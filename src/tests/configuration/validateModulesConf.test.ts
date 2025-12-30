@@ -4,7 +4,10 @@ import fs from 'fs';
 import os from 'os';
 
 jest.mock('../../utils/fs');
-jest.mock('os');
+jest.mock('os', () => ({
+    ...jest.requireActual('os'),
+    platform: jest.fn(),
+}));
 jest.mock('fs', () => ({
     promises: {
         access: jest.fn(),
