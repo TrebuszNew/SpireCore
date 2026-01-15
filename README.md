@@ -42,24 +42,6 @@ Hello world!
 - [ ]  Add `style` section
 - [ ]  Add `whenRequire` section
 
-## License
-SpireCore is distributed under the [SRLv1.0](https://github.com/TrebuszNew/SpireCore/blob/main/LICENSE) license — a proprietary source-available license.\
-Since I respect your time, here is a brief summary of what you can and cannot do, and other things you agree to under this license:\
-✅ You Can:
- - Build and customize your projects using the SpireLite Ecosystem.
- - Release games and applications created in this ecosystem under any license of your choice.  
- - Freely sell and commercialize your projects (games/software) created using these tools.
-
-❌ You Cannot:
- - Use the source code or documentation to train AI models and Machine Learning systems (e.g., LLMs).
- - Create "commercial forks" – you cannot repackage or sell the tools as a standalone engine or competing product.
- - Sell plugins, modules, or extensions designed for the SpireLite ecosystem (all such additions must be distributed at no cost).
-
-🧠 Good to Know:
- - Revenue Sharing: The obligation to pay 4% of revenue only applies after exceeding $40,000 USD in annual gross revenue (calculated across all your projects).
- - Reporting Threshold: You must submit an annual revenue report if your gross revenue exceeds $4,000 USD, even if no payment is due.
- - License Versioning: When a new license version is released, you have a 360-day grace period to update your project; otherwise, specific update rules apply.
-
 ## FAQ
 
 **Q: Can I use SpireCore as a standalone CLI tool?**\
